@@ -1,0 +1,2 @@
+D:\Documents\AndroidStudio_Projects\Tracker\app\build\intermediates\classes\debug
+D:\Documents\AndroidStudio_Projects\Tracker\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-c702de5e2b520b1d9a0ac947f7ddec531dad14c6.jar

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+    </SurfaceView>
+
+    <RelativeLayout
+        android:id="@+id/llMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <ToggleButton
+            android:id="@+id/startStopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="onToggleClicked"
+            android:text="@string/Rec"
+            android:textOff="Stop"
+            android:textOn="Rec" />
+
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
+        android:text="ON/OFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/checkBox1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout><!-- From: file:/D:/Documents/AndroidStudio_Projects/Tracker/app/src/main/res/layout/activity_main.xml -->
