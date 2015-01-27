@@ -29,7 +29,7 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.preference.PreferenceManager;
 import android.telephony.SmsMessage;
-import android.telephony.gsm.SmsManager;
+import android.telephony.SmsManager;
 import android.text.AlteredCharSequence;
 import android.text.method.DialerKeyListener;
 import android.view.Display;
@@ -71,8 +71,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
   TextView textView;
   AlertDialog.Builder alertDialogB;
   boolean onOffCheck;
-    //some changes
-  
+
   SensorManager sensorManager;
   Sensor sensorAccel;
   Sensor sensorMagnet;
