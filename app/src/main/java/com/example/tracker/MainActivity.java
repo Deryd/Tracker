@@ -71,6 +71,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
   TextView textView;
   AlertDialog.Builder alertDialogB;
   boolean onOffCheck;
+    //some changes
   
   SensorManager sensorManager;
   Sensor sensorAccel;
